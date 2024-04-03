@@ -15,13 +15,15 @@ public class Main {
         double price2 = 650.50;
         double measure = 53.234567;
 
+
         System.out.println("Products :  "+ product1 +" witch price is "+ price1);
         System.out.println(product2+" wich the price is "+price2);
         System.out.println("record: " +age+" years old code " +code+ " and gender "+gender);
         System.out.println("measue with eight decimal places: " +measure);
         System.out.printf("(three decimal places): %.3f%n " , measure);
-        Locale us = Locale.US;
+        Locale us = Locale.US; //identificar a localidade
         System.out.printf(Locale.US, "us decimal point %.3f%n ",measure);
+
         
 
     }

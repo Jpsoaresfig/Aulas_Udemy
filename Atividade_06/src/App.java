@@ -12,6 +12,7 @@ public class App {
         }
 
         System.out.println("A soma dos valores digitados é de " + soma);
+        sc.close();
 
     }
 }

@@ -21,7 +21,7 @@ public class Account {
         return number;
     }
 
-    public String getHolder() {
+     public String getHolder() {
         return holder;
     }
 
@@ -41,7 +41,7 @@ public class Account {
         balance -= amount + 5.0;
     }
 
-    public String toString() {
+    public String toString() { //exibe os dados
         return "Account "
                 + number
                 + ", Holder: "

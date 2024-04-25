@@ -15,5 +15,6 @@ public class Main {
         } while (a != 00); // saira do loop
 
         System.out.println("A soma dos valores digitados é de " + soma);
+        sc.close();
     }
 }

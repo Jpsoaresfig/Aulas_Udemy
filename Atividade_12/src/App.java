@@ -30,6 +30,7 @@ public class App {
         }
         System.out.println("a media dos valores dos produtos é: " + mediafinal);
         sc.close();
+        System.out.println("total de produtos cadastrados " + n);
     }
     
 }

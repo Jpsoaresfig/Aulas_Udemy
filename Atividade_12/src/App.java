@@ -32,5 +32,5 @@ public class App {
         sc.close();
         System.out.println("total de produtos cadastrados " + n);
     }
-    
+
 }

@@ -8,5 +8,10 @@ public class funcoes {
       double  media = sum / n;
         return media;
     }
+
+    public static double soma(int n, double[] vector) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'soma'");
+    }
     
 }

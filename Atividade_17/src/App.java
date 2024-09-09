@@ -12,6 +12,7 @@ public class App {
         boolean[] quartoOcupado = new boolean[11]; // Array para rastrear quartos ocupados (índices 1 a 10)
 
         for (int i = 0; i < n; i++) {
+            System.out.printf("Número do Aluguel %d:\n", i + 1);
             System.out.println("Nome: ");
             nome[i] = sc.next();
             System.out.println("Email: ");
@@ -27,7 +28,7 @@ public class App {
 
             if (quartoOcupado[numeroQuarto]) {
                 System.out.println("O quarto " + numeroQuarto + " está ocupado. Escolha outro quarto.");
-                i--; 
+                i--;
                 continue;
             }
 

@@ -13,5 +13,5 @@ public class funcoes {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'soma'");
     }
-    
+
 }

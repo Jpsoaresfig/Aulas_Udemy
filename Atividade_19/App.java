@@ -1,16 +1,15 @@
 package Atividade_19;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
-import Atividade_19.src.Empregado;
+import Atividade_19.src.Funcionario;
 
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-        List<Empregado> list = new ArrayList<>();// Itens do Empregado
+        List<Funcionario> list = new ArrayList<>();// Itens do Empregado
 
         System.out.println("Quantos funcionarios serão registrados ");
         int n = sc.nextInt();
@@ -26,7 +25,7 @@ public class App {
 
             System.out.print("Salario: ");
             double salary = sc.nextDouble();
-            list.add(new Empregado(id, name, salary));// adicionando a lista de itens
+            list.add(new Funcionario(id, name, salary));// adicionando a lista de itens
         }
 
         System.out.println(("Qual o id do salario que sera ira aumentar?"));
@@ -42,7 +41,7 @@ public class App {
 
             System.out.println("Lista de funcionarios ");
 
-            for (Empregado empregado : list) {
+            for (Funcionario empregado : list) {
                 System.out.println(empregado);
             }
         }
@@ -50,7 +49,7 @@ public class App {
         sc.close();
     }
 
-    public static Integer posicao(List<Empregado> list,double tiDsalarioo) {// verificar se posição do id existe
+    public static Integer posicao(List<Funcionario> list,double tiDsalarioo) {// verificar se posição do id existe
 
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getID() ==tiDsalarioo) {

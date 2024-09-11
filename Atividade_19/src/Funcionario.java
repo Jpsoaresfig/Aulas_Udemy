@@ -1,6 +1,6 @@
 package Atividade_19.src;
 
-public class Empregado {
+public class Funcionario {
 
     private int ID;
     private String nome;
@@ -8,7 +8,7 @@ public class Empregado {
 
 
     
-    public Empregado(int iD, String nome, double salario) {
+    public Funcionario(int iD, String nome, double salario) {
         ID = iD;
         this.nome = nome;
         this.salario = salario;

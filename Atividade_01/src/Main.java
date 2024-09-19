@@ -21,7 +21,7 @@ public class Main {
         System.out.println("record: " +age+" years old code " +code+ " and gender "+gender);
         System.out.println("measue with eight decimal places: " +measure);
         System.out.printf("(three decimal places): %.3f%n " , measure);
-        Locale us = Locale.US; //identificar a localidade
+        Locale us = Locale.US; 
         System.out.printf(Locale.US, "us decimal point %.3f%n ",measure);
 
         

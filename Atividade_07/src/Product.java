@@ -4,6 +4,10 @@ public class Product {
     public double price;
     public int quantity;
 
+    public Product(String productName, double productPrice) {
+        //TODO Auto-generated constructor stub
+    }
+
     public double totalValueInStock() {
         return price * quantity;
     }

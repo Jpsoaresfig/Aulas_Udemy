@@ -3,8 +3,8 @@ package Atividade_30.Entities;
 public class Account {
 
     private Integer number;
-    private String holder;//so pode ser acessado pela propria classe 
-    protected Double balance;//pode ser acessado por subclasses 
+    private String holder;// so pode ser acessado pela propria classe
+    protected Double balance;// pode ser acessado por subclasses
 
     public Account() {
 
@@ -41,7 +41,7 @@ public class Account {
     }
 
     public void withdraw(double amount) {
-        balance -= amount;
+        balance -= amount +5;
     }
 
 }

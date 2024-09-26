@@ -26,4 +26,10 @@ public class BusinesssAccount extends Account{
             deposit(amount);
         }
     }
+
+    @Override
+    public void withdraw(double amount) {
+        super.withdraw(amount);//pegando o withdraw da superclasse e desontando 2 reais
+        balance -= 2.0;
+    }
 }

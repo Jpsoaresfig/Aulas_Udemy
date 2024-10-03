@@ -25,7 +25,7 @@ public class SavingsAccount extends Account {
         balance += balance * interestRate;
     }
     @Override
-    public void withdraw(double amount){
-        balance -= amount;
+    public void withdraw(double amount){ //se for colocado public final void withdraw essa função nao podera ser chamada em outra classe  
+        balance -= amount; //final também é mais rapido, não consome muito 
     }
 }

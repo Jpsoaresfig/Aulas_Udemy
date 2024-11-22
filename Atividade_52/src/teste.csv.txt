@@ -1,9 +1,5 @@
-Alex Blue,15
-Maria Green,22
-Bob Brown,21
-Alex Blue,30
-Bob Brown,15
-Maria Green,27
-Maria Green,22
-Bob Brown,25
-Alex Blue,31
+*Nome
+
+slogan: Empresa confiável onde qualidade e simpatia andam de mãos dadas,
+
+er uma empresa honesta, dedicada a oferecer produtos de alta qualidade e garantir a satisfação dos clientes. Buscar proporcionar conforto e confiança em cada experiência de compra, assegurando que os clientes saiam sempre satisfeitos. Valorizar a relevância e a utilidade dos produtos para que agreguem real valor ao dia a dia dos consumidores.

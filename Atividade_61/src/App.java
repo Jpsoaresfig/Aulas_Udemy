@@ -1,6 +1,8 @@
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class App {
@@ -9,7 +11,7 @@ public class App {
 
         List< Integer > list = Arrays.asList(1,2,3,4,5,6);
 
-        Stream <Integer> st1 = list.stream().map(l -> l * 10);//forma de transformar uma lista em stream (* o map aplica uma função a cada elemento da lista) nesse caso multiplicando por 10          
+        Stream <Integer> st1 = list.stream().map(x -> x * 10);//forma de transformar uma lista em stream (* o map aplica uma função a cada elemento da lista) nesse caso multiplicando por 10          
         System.out.println(Arrays.toString(st1.toArray()));//forma de iprimir a lista usando stream
 
 
@@ -24,7 +26,17 @@ public class App {
         System.out.println(Arrays.toString(st6.limit(10).toArray()));
 
 
+        int sum = list.stream().reduce(0,(x,y)->x+y);
+        System.out.println("A soma vai ser igual a: "+sum);
 
+
+
+        //pega elementos pares da lista e multiplica por 10 
+        List<Integer> lst2 = list.stream().filter(x -> x % 2 == 0).map(x -> x * 10).collect(Collectors.toList());
+        System.out.println(Arrays.toString(lst2.toArray()));                      
+                                   
+                                    
+        
 
 
 
